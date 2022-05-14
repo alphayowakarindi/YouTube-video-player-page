@@ -156,6 +156,28 @@ img {
     font-size: 14px;
 }
 
+/* feedback section */
+#main .feedback {
+    margin-top: 15px;
+}
+
+#main .feedback ul {
+    list-style: none;
+    display: flex;
+}
+
+#main .feedback li {
+    margin-right: 20px;
+}
+
+#main .feedback span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+}
+
+
 
 
 
