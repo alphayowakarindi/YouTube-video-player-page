@@ -384,4 +384,19 @@ img {
     right: 0;
     top: 80px;
     width: 33vw;
+    padding-top: 23px;
+}
+#side-bar .chat-replay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 402px;
+    height: 31px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#side-bar .chat-replay span{
+   font-size: 11px;
+   color: #030303;
 }
