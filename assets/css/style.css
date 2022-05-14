@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+body{
+    background-color: #f9f9f9;
+}
 
 /* global */
 i {
@@ -26,6 +29,7 @@ img {
     align-items: center;
     padding: 20px;
     height: 80px;
+    background-color: #ffffff;
 }
 
 
@@ -114,7 +118,6 @@ img {
 /* main */
 #main {
     width: 67vw;
-    background-color: #f9f9f9;
     padding-left: 40px;
     padding-right: 23px;
     padding-top: 23px;
@@ -373,4 +376,12 @@ img {
 #main .more-replies span{
    color: #065FD4;
    font-size: 14px;
+}
+
+/* side bar */
+#side-bar {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 33vw;
 }
