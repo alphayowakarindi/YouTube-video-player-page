@@ -14,6 +14,7 @@ i {
 
 img {
     width: 36px;
+    height: 36px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -105,6 +106,7 @@ img {
 
 #nav-bar .right img {
     width: 32px;
+    height: 32px;
     border-radius: 50%;
     margin-left: 25px;
 }
@@ -116,6 +118,7 @@ img {
     padding-left: 40px;
     padding-right: 23px;
     padding-top: 23px;
+    padding-bottom: 50px;
 }
 
 /* video section */
@@ -243,7 +246,7 @@ img {
 /* add comment section */
 #main .add-comment {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-top: 30px;
 }
 
@@ -266,7 +269,7 @@ img {
     background-color: #f9f9f9;
     position: relative;
     bottom: 7px;
-    
+
 }
 
 #main .add-comment .input:focus {
@@ -299,4 +302,75 @@ img {
     border-radius: 2px;
     font-size: 14px;
     font-weight: 500;
+}
+
+/* comments section */
+#main .comments .comment-card{
+    display: flex;
+    margin-top: 30px;
+}
+
+#main img {
+    margin-right: 12px;
+}
+
+#main .comments .comment-card .right .name span:nth-of-type(1) {
+    color: #030303;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#main .comments .comment-card .right .name span:nth-of-type(2) {
+    color: #606060;
+    font-size: 12px;
+}
+
+#main .comments .comment-card .right .comment {
+    color: #030303;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+#main .comments .comment-card .right .likes {
+    margin-top: 8px;
+}
+
+#main .comments .comment-card .right .likes i {
+    font-size: 12px;
+    color: #606060;
+    margin-right: 5px;
+}
+
+#main .comments .comment-card .right .likes span:nth-of-type(1) {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #606060;
+}
+
+#main .comments .comment-card .right .likes span:nth-of-type(1) {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #606060;
+}
+
+#main .comments .comment-card .right .likes span:nth-of-type(2) {
+    font-size: 12px;
+    color: #606060;
+    font-weight: 500;
+    margin-left: 20px;
+}
+#main .more-replies{
+    margin-top:8px;
+    cursor: pointer;
+}
+
+#main .more-replies i{
+    height: 20px;
+    width: 20px;
+   color: #065FD4;
+
+}
+#main .more-replies span{
+   color: #065FD4;
+   font-size: 14px;
 }
