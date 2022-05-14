@@ -178,7 +178,51 @@ img {
 }
 
 
+/* subscribe section */
+#main .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 4px 5px 12px;
+    border-radius: 4px;
 
+}
+
+#main .subscribe .left {
+    display: flex;
+    align-items: center;
+}
+
+#main .subscribe img {
+    margin-right: 10px;
+}
+
+#main .subscribe span {
+    display: block;
+}
+
+#main .subscribe span:nth-of-type(1) {
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+}
+
+#main .subscribe span:nth-of-type(2) {
+    font-size: 12px;
+    color: #606060;
+}
+
+#main .subscribe input {
+    color: #ffffff;
+    padding: 10px 16px;
+    background-color: #CC0000;
+    font-size: 14px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
 
 
 
