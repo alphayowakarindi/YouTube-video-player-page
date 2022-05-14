@@ -109,6 +109,55 @@ img {
     margin-left: 25px;
 }
 
+/* main */
+#main {
+    width: 67vw;
+    background-color: #f9f9f9;
+    padding-left: 40px;
+    padding-right: 23px;
+    padding-top: 23px;
+}
+
+/* video section */
+#main .video {
+    height: 530px;
+}
+
+#main .video span {
+    color: #065FD4;
+    font-size: 12px;
+    margin: 5px 0;
+    display: inline-block;
+
+}
+
+#main .video h1 {
+    color: #030303;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* description section */
+#main .description {
+    margin-top: 10px;
+}
+
+#main .description .views-count,
+#main .description .more {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+
+}
+
+#main .description .paragraph {
+    color: #606060;
+    font-size: 14px;
+}
+
+
+
 
 
 
