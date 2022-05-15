@@ -410,6 +410,7 @@ img {
     width: 402px;
     height: 50px;
     margin-top: 24px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
@@ -434,6 +435,7 @@ img {
     border-radius: 16px;
     padding: 8px 12px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 #side-bar .tags-list ul li:nth-of-type(1) {
@@ -446,4 +448,49 @@ img {
     color: #030303;
     background-color: #0000000D;
     font-weight: 400;
+}
+
+/* suggested videos */
+#side-bar .suggested-videos .suggested-video {
+    display: flex;
+    width: 381px;
+}
+
+#side-bar .suggested-videos .suggested-video img {
+    height: 94px;
+    width: 168px;
+    border-radius: 0;
+}
+
+#side-bar .suggested-videos .suggested-video .right {
+    margin-left: 8px;
+}
+
+#side-bar .suggested-videos .suggested-video .right h1 {
+    color: #030303;
+    font-size: 14px;
+}
+
+#side-bar .suggested-videos .suggested-video .right span {
+    font-size: 12px;
+    color: #606060;
+}
+
+#side-bar .suggested-videos .suggested-video .right div {
+    display: flex;
+    align-items: center;
+}
+
+#side-bar .suggested-videos .suggested-video .right .middot {
+    font-size: 24px;
+    margin: 0 3px;
+}
+
+#side-bar .suggested-videos .suggested-video .name {
+    margin-top: 15px;
+    line-height: 0.3;
+    display: block;
+}
+#side-bar .suggested-videos .suggested-video {
+  margin-bottom: 5px;
 }
